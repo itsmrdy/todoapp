@@ -1,6 +1,6 @@
 # todoapp
 
-For this sample code I am using clean code architecture using BLOC (Business Logic Compononent) State Management. 
+For this sample code I am using clean code architecture using BLOC (Business Logic Component) State Management. 
 It is a domain driven architecture wherein the domain,services,presentation,application (BLOC)
 are separated from each other. I also implemented dependency injection for me to easily catch dependecies or 
 register dependencies I am going to use. 
