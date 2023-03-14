@@ -1,19 +1,12 @@
 # todoapp
 
-A Todo Flutter project.
+For this sample code I am using clean code architecture using BLOC (Business Logic Compononent) State Management. 
+It is a domain driven architecture wherein the domain,services,presentation,application (BLOC)
+are separated from each other. I also implemented dependency injection for me to easily catch dependecies or 
+register dependencies I am going to use. 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The architecture also having a separated pubspec.yaml for each services for me to easily identify where 
+the package belong. 
 
 
 #HOW TO GET PACKAGES OF THE APP 
