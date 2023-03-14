@@ -1,0 +1,26 @@
+name: core
+description: A module that contains classes and functions accessible to all feature modules.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  dartz: ^0.10.0-nullsafety.2
+  device_info: ^2.0.2
+  flutter:
+    sdk: flutter
+  get_it: ^7.1.4
+  logger: ^1.0.0
+  package_info: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  module:
+    androidX: true
+    androidPackage: com.gcvh.core
+    iosBundleIdentifier: com.gcvh.core

@@ -1,0 +1,44 @@
+name: presentation
+description: A module containing all the UI widgets and UI logic.
+
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  application:
+    path: ../application
+  bloc: ^7.1.0
+  core:
+    path: ../../core
+  cupertino_icons: ^1.0.3
+  domain:
+    path: ../domain
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.1.0
+  flutter_spinkit: ^5.1.0
+  step_progress_indicator: ^1.0.2
+  modal_bottom_sheet: ^2.1.2
+  font_awesome_flutter: ^10.3.0
+  intl: ^0.18.0
+  google_fonts: ^3.0.1
+  flutter_slidable: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/
+    
+  module:
+    androidX: true
+    androidPackage: com.gcvh.presentation
+    iosBundleIdentifier: com.gcvh.presentation

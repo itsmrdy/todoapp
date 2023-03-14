@@ -1,0 +1,39 @@
+name: todoapp
+description: To do application for CoDev
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  application:
+    path: modules/features/application
+  core:
+    path: modules/core
+  domain:
+    path: modules/features/domain
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.3.0
+  intl: ^0.18.0
+  logger: ^1.0.0
+  modal_bottom_sheet: ^2.1.2
+  presentation:
+    path: modules/features/presentation
+  service:
+    path: modules/features/service
+  shared_preferences: ^2.0.15
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
