@@ -11,7 +11,11 @@ the package belong.
 
 #HOW TO GET PACKAGES OF THE APP 
 flutter pub get
+
 flutter pub get modules/features/application
+
 flutter pub get modules/features/service
+
 flutter pub get modules/features/presentation
+
 flutter pub get modules/features/domain
